@@ -1,0 +1,31 @@
+{
+  "name": "mycliprogram",
+  "version": "1.0.0",
+  "description": "Locking and Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing.js"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  },
+  "author": "Alberto Navarro",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "prompt-promise": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.4",
+    "eslint": "^1.10.3"
+  }
+}
